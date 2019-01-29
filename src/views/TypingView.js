@@ -60,7 +60,7 @@ class TypingView extends React.Component {
     }
 
     return (
-      <div className="flex-container">
+      <div className="flex-container-typing">
         <div className="message-text text-center">
           <p>The content is unavailable on the browser. Please use your smartphone to view the content, thank you! <span role="img" aria-label="hand">✌️</span></p>
         </div>
