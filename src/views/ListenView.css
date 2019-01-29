@@ -1,0 +1,22 @@
+.flex-container-listen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+@media (max-width: 575.98px) {
+  .flex-container-listen {
+    background: url('../assets/jane-listening.gif') no-repeat fixed;
+    background-size: cover;
+    height: 85vh;
+  }
+
+  .button-action-listen {
+    margin-top: 560px;
+    flex: 1 1 auto;
+    height: 240px;
+  }
+}

@@ -1,0 +1,22 @@
+.flex-container-static {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+@media (max-width: 575.98px) {
+  .flex-container-static {
+    height: 86vh;
+    background: url('../assets/jane-static.gif') no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  .button-action-static {
+    margin-top: 560px;
+    flex: 1 1 auto;
+    height: 240px;
+  }
+}

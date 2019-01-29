@@ -1,0 +1,28 @@
+.flex-container-typing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+@media (max-width: 575.98px) {
+  .flex-container-typing {
+    background: url('../assets/jane-typing.gif') no-repeat center center fixed;
+    background-size: cover;
+    height: 86vh;
+  }
+
+  .text-block {
+    height: 480px;
+  }
+
+  .message-text-animation {
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 232px;
+    font-size: 22px;
+    z-index: 400000;
+    color: white;
+  }
+}
