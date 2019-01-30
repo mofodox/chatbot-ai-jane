@@ -12,6 +12,7 @@
     height: 86vh;
     background: url('../assets/jane-static.gif') no-repeat center center fixed;
     background-size: cover;
+    width: 100%;
   }
 
   .button-action-static {

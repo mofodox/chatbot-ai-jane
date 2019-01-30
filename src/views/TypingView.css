@@ -11,6 +11,7 @@
     background: url('../assets/jane-typing.gif') no-repeat center center fixed;
     background-size: cover;
     height: 86vh;
+    width: 100%;
   }
 
   .text-block {

@@ -9,8 +9,9 @@
 
 @media (max-width: 575.98px) {
   .flex-container-listen {
-    background: url('../assets/jane-listening.gif') no-repeat fixed;
+    background: url('../assets/jane-listening.gif') no-repeat center center fixed;
     background-size: cover;
+    width: 100%;
     height: 85vh;
   }
 
